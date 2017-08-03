@@ -22,4 +22,5 @@ mocha
 ### 参考
 
 * [should.js](https://github.com/shouldjs/should.js)
+* [Travis CI](https://www.travis-ci.org/)
 * [Travis CI Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
