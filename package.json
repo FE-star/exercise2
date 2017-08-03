@@ -1,0 +1,25 @@
+{
+  "name": "exercise2",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FE-star/exercise2.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Daniel Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FE-star/exercise2/issues"
+  },
+  "homepage": "https://github.com/FE-star/exercise2#readme",
+  "devDependencies": {
+    "should": "^11.2.1"
+  }
+}
