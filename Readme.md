@@ -9,6 +9,12 @@ npm install mocha -g
 ```
 
 * Fork 代码仓库并拉到本地
+* 安装依赖
+
+```
+npm install
+```
+
 * 启动测试
 
 ```
