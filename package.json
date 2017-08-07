@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "should": "^11.2.1"
   }
 }
