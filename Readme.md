@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mayufo/exercise2.svg?branch=master)](https://travis-ci.org/mayufo/exercise2)
 
-[![coverage](https://img.shields.io/codecov/c/github/mayufo/exercise2.svg?style=flat-square)](https://codecov.io/gh/mayufo/exercise2)
+[![Coverage Status](https://coveralls.io/repos/github/mayufo/exercise2/badge.svg?branch=master)](https://coveralls.io/github/mayufo/exercise2?branch=master)
 
 ### 步骤
 
