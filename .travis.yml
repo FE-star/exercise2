@@ -3,3 +3,7 @@ node_js:
   - "7"
 before_install:
   - npm install -g mocha
+install:
+  - npm install
+after_success:
+  - npm run coveralls
