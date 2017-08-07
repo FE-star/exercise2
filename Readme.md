@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/mayufo/exercise2.svg?branch=master)](https://travis-ci.org/mayufo/exercise2)
 
+[![coverage](https://img.shields.io/codecov/c/github/mayufo/exercise2.svg?style=flat-square)](https://codecov.io/gh/mayufo/exercise2)
+
 ### 步骤
 
 * 全局安装 mocha
