@@ -1,5 +1,7 @@
 # Readme
+[![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)](https://coveralls.io/github/xiaolong2013/exercise2?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/xiaolong2013/exercise2/badge.svg?branch=master)](https://coveralls.io/github/xiaolong2013/exercise2?branch=master)
+
 
 ### 步骤
 
