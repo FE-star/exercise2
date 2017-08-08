@@ -1,5 +1,9 @@
 # Readme
 
+[![Build Status](https://travis-ci.org/mayufo/exercise2.svg?branch=master)](https://travis-ci.org/mayufo/exercise2)
+
+[![Coverage Status](https://coveralls.io/repos/github/mayufo/exercise2/badge.svg?branch=master)](https://coveralls.io/github/mayufo/exercise2?branch=master)
+
 ### 步骤
 
 * 全局安装 mocha
