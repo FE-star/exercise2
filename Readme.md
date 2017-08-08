@@ -1,6 +1,5 @@
 # Readme
-[![Build Status](https://api.travis-ci.org/excaliburhan/api-koa.svg?branch=master)](https://api.travis-ci.org/excaliburhan/api-koa)
-[![Coverage Status](https://coveralls.io/repos/github/excaliburhan/api-koa/badge.svg?branch=master)](https://coveralls.io/github/excaliburhan/api-koa?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/xiaolong2013/exercise2/badge.svg?branch=master)](https://coveralls.io/github/xiaolong2013/exercise2?branch=master)
 
 ### 步骤
 
