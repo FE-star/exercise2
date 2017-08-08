@@ -1,5 +1,5 @@
 language: node_js
-COVERALLS_REPO_TOKEN : 2Ippw926tkQcwIvJOJ5pzDdKpBTtE4nGA
+coveralls_repo_token: 2Ippw926tkQcwIvJOJ5pzDdKpBTtE4nGA
 node_js:
   - "6"
 script: npm run test
