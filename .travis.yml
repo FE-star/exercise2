@@ -1,4 +1,5 @@
 language: node_js
+repo_token: 2Ippw926tkQcwIvJOJ5pzDdKpBTtE4nGA
 node_js:
   - "6"
 script: npm run test
