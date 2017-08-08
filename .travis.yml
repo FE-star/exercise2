@@ -3,6 +3,6 @@ repo_token: 2Ippw926tkQcwIvJOJ5pzDdKpBTtE4nGA
 node_js:
   - "iojs"
   - "7"
-dist: precise 
+script: npm run test
 after_script:
   npm run cov
