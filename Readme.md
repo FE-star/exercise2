@@ -1,4 +1,5 @@
 # Readme
+[![Build Status](https://www.travis-ci.org/aphy358/exercise2.svg?branch=master)](https://www.travis-ci.org/aphy358/exercise2)
 
 ### 步骤
 
