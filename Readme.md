@@ -1,4 +1,6 @@
 # Readme
+[![Build Status](https://api.travis-ci.org/excaliburhan/api-koa.svg?branch=master)](https://api.travis-ci.org/excaliburhan/api-koa)
+[![Coverage Status](https://coveralls.io/repos/github/excaliburhan/api-koa/badge.svg?branch=master)](https://coveralls.io/github/excaliburhan/api-koa?branch=master)
 
 ### 步骤
 
@@ -25,5 +27,4 @@ mocha
 * [Travis CI](https://www.travis-ci.org/)
 * [Travis CI Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 
-* [![Build Status](https://api.travis-ci.org/excaliburhan/api-koa.svg?branch=master)](https://api.travis-ci.org/excaliburhan/api-koa)
-* [![Coverage Status](https://coveralls.io/repos/github/excaliburhan/api-koa/badge.svg?branch=master)](https://coveralls.io/github/excaliburhan/api-koa?branch=master)
+
