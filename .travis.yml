@@ -1,5 +1,5 @@
-language: node_js  //环境设置成node_js
-node_js:    //版本
+language: node_js
+node_js:   
   - "4"
 before_install:
   - npm install -g mocha
