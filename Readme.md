@@ -1,4 +1,6 @@
-# Readme
+# Readme 
+![Build Status](https://travis-ci.org/shengyur/exercise2.svg?branch=master)
+
 
 ### 步骤
 
@@ -30,4 +32,3 @@ mocha
 * [should.js](https://github.com/shouldjs/should.js)
 * [Travis CI](https://www.travis-ci.org/)
 * [Travis CI Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
-[![Build Status](https://travis-ci.org/shengyur/exercise2.svg?branch=master)]
