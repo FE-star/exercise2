@@ -13,7 +13,9 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": "https://github.com/leilei1238/exercise2",
+  "repository": {
+    "type": "git"
+  },
   "author": "leilei",
   "license": "ISC",
   "bugs": {
