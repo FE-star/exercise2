@@ -1,25 +1,24 @@
 {
   "name": "exercise2",
-  "version": "0.0.1",
-  "description": "test",
+  "version": "1.0.0",
+  "description": "### 步骤",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "should": "^11.2.1"
+  },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FE-star/exercise2.git"
+    "type": "git"
   },
-  "keywords": [
-    "test"
-  ],
-  "author": "Daniel Yang",
-  "license": "MIT",
+  "author": "leilei",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FE-star/exercise2/issues"
-  },
-  "homepage": "https://github.com/FE-star/exercise2#readme",
-  "devDependencies": {
-    "should": "^11.2.1"
+    "url": ""
   }
 }
