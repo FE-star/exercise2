@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
+    "big-integer": "^1.6.26",
     "should": "^11.2.1"
   }
 }
