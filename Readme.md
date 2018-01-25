@@ -1,4 +1,5 @@
 # Readme
+[![Build Status](https://www.travis-ci.org/Ivanwangcy/exercise2.svg?branch=master)](https://travis-ci.org/Ivanwangcy/exercise2)
 
 ### 步骤
 
