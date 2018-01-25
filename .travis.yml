@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "8"
+install: 
+  - npm install -g mocha
+  - npm install
+script: 
+  - mocha
+cach: 
+  directories: 
+    - "node_modules"
