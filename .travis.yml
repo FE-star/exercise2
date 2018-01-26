@@ -3,9 +3,5 @@ rvm:
  - 8
 
 install:
-  - node -v
   - npm install -g mocha 
   - npm install
-
-script:
-  - mocha
