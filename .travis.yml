@@ -1,5 +1,5 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-3
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+  - "8"
