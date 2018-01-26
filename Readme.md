@@ -1,29 +1,13 @@
-# Readme
+# mocha 测试练习2
 
-### 步骤
-
-* 全局安装 mocha
-
-```
-npm install mocha -g
-```
+## 开始
 
 * Fork 代码仓库并拉到本地
-* 安装依赖
-
-```
-npm install
-```
-
-* 启动测试
-
-```
-mocha
-```
-
-* 打开 `./test/test.js` 修改 `./lib/add.js` 跑通测试用例 
-
-* 提交github，尝试接入Travis CI
+* 安装依赖 `npm i`
+* 局部安装 mocha `npm install mocha -g`
+* 启动测试 `npm t`
+* 打开 `./test/test.js` 修改 `./lib/add.js` 跑通测试用例
+* 提交 github，尝试接入Travis CI
 
 ### 参考
 
