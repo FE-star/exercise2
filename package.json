@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
+    "jasmine-core": "^2.9.1",
+    "karma": "^2.0.0",
+    "karma-browserify": "^5.1.3",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
     "should": "^11.2.1"
   }
 }
