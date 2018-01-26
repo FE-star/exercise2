@@ -1,13 +1,14 @@
 language: node_js
-rvm:
- - '8'
+node_js:
+ - 8
+
+before_install:
+ - node -v
+ - npm -v
 
 install:
   - npm install -g mocha 
   - npm install
-
-before_script:
-  - node -v
 
 script:
   - mocha
