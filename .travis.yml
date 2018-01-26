@@ -5,3 +5,9 @@ rvm:
 install:
   - npm install -g mocha 
   - npm install
+
+before_script:
+  - node -v
+
+script:
+  - mocha
