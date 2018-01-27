@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wxwfe/exercise2.svg?branch=master)](https://travis-ci.org/wxwfe/exercise2)
+
 # Readme
 
 ### 步骤
