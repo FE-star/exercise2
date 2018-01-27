@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/huacnlee/rucaptcha.svg)](https://travis-ci.org/huacnlee/rucaptcha)
+
 # Readme
 
 ### 步骤
