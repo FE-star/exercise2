@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/huacnlee/rucaptcha.svg)](https://travis-ci.org/huacnlee/rucaptcha)
+[![Build Status](https://travis-ci.org/wxwfe/exercise2.svg?branch=master)
 
 # Readme
 
