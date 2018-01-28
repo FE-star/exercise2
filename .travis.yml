@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "6"
+
+before_script:
+  - npm install mocha -g
+  - npm install
+  - npm test
+
+branches:
+  only:
+    - eating-result
