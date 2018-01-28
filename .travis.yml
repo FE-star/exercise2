@@ -1,3 +1,6 @@
+//指定运行环境
+before_script: 
+ - npm install -g mocha 
 language: node_js
 node_js:
   - "9"
