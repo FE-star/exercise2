@@ -1,8 +1,8 @@
 language: node_js
 node_js:
- - "iojs"
+  - "iojs"
   - "7"
 before_script:
    - npm install -g mocha
 script:
-   - mocha
+   - npm run test
