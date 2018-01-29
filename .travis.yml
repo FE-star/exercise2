@@ -8,8 +8,6 @@
    - npm install should --save-dev
    - npm install -g mocha
 
- #保存node_modules
- cache : directories : - " node_modules" 
  script:
    - npm run test
 
