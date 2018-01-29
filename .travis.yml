@@ -5,8 +5,8 @@
    - 8
 
  before_script:
-   - npm install should --save-dev
    - npm install -g mocha
+   - npm install
 
  script:
    - npm run test
