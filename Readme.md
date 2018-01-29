@@ -1,7 +1,6 @@
 # Readme
 
-[![Build Status](https://www.travis-ci.org/shouldjs/exercise2.svg?branch=master)](https://www.travis-ci.org/IsZoe/exercise2)
-
+[![Build Status](https://www.travis-ci.org/IsZoe/exercise2.svg?branch=master)](https://www.travis-ci.org/IsZoe/exercise2)
 
 ### 步骤
 
