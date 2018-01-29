@@ -22,7 +22,5 @@
   "devDependencies": {
     "should": "^11.2.1"
   },
-  "dependencies": {
-    "big-integer": "^1.6.26"
-  }
+  "dependencies": {}
 }
