@@ -1,8 +1,8 @@
 # Readme
 
-https://travis-ci.org/IsZoe/exercise2
-https://travis-ci.org/[IsZoe]/[exercise2]
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]
+[![Build Status](https://www.travis-ci.org/shouldjs/exercise2.svg?branch=master)](https://www.travis-ci.org/IsZoe/exercise2)
+
+
 ### 步骤
 
 * 全局安装 mocha
