@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'test' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle exercise2@0.0.1~pretest: exercise2@0.0.1
+6 silly lifecycle exercise2@0.0.1~pretest: no script for pretest, continuing
+7 info lifecycle exercise2@0.0.1~test: exercise2@0.0.1
+8 verbose lifecycle exercise2@0.0.1~test: unsafe-perm in lifecycle true
+9 verbose lifecycle exercise2@0.0.1~test: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\bin\Desktop\FE_course\exercise2\node_modules\.bin;C:\Users\bin\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-9.0.1\bin;C:\Users\bin\algs4\java\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python27\Lib\site-packages\PyQt4;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Python27\DLLs;C:\Python27\Scripts;C:\Python27\Lib\site-packages\vtk;C:\Python27\gnuplot\binary;C:\Program Files (x86)\pythonxy\SciTE-3.3.2-3;C:\Program Files (x86)\pythonxy\console;C:\MinGW32-xy\bin;C:\Program Files\MATLAB\R2012a\runtime\win64;C:\Program Files\MATLAB\R2012a\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\bin\algs4\bin;C:\Users\bin\algs4\java\bin;C:\AppServ\Apache24\bin;C:\AppServ\php5;C:\AppServ\MySQL\bin;C:\Users\bin\AppData\Local\Microsoft\WindowsApps;C:\Users\bin\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+10 verbose lifecycle exercise2@0.0.1~test: CWD: C:\Users\bin\Desktop\FE_course\exercise2
+11 silly lifecycle exercise2@0.0.1~test: Args: [ '/d /s /c', 'mocha' ]
+12 silly lifecycle exercise2@0.0.1~test: Returned: code: 1  signal: null
+13 info lifecycle exercise2@0.0.1~test: Failed to exec test script
+14 verbose stack Error: exercise2@0.0.1 test: `mocha`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid exercise2@0.0.1
+16 verbose cwd C:\Users\bin\Desktop\FE_course\exercise2
+17 error Windows_NT 10.0.16299
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "test"
+19 error node v6.11.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error exercise2@0.0.1 test: `mocha`
+22 error Exit status 1
+23 error Failed at the exercise2@0.0.1 test script 'mocha'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the exercise2 package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     mocha
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs exercise2
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls exercise2
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
