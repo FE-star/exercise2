@@ -1,4 +1,4 @@
-# Readme
+# Readme [![Build Status](https://www.travis-ci.org/wanglei-elf/exercise2.svg?branch=master)](https://www.travis-ci.org/wanglei-elf/exercise2)
 
 ### 步骤
 
