@@ -1,5 +1,7 @@
 # Readme
 
+[![Build Status](https://www.travis-ci.org/IsZoe/exercise2.svg?branch=master)](https://www.travis-ci.org/IsZoe/exercise2)
+
 ### 步骤
 
 * 全局安装 mocha
@@ -21,7 +23,7 @@ npm install
 mocha
 ```
 
-* 打开 `./test/test.js` 修改 `./lib/add.js` 跑通测试用例 
+* 打开 `./test/test.js` 修改 `./lib/add.js` 跑通测试用例
 
 * 提交github，尝试接入Travis CI
 
