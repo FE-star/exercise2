@@ -1,5 +1,7 @@
 # Readme
 
+[![Build Status](https://www.travis-ci.org/ChenHaoNane/exercise2.svg?branch=master)](https://www.travis-ci.org/ChenHaoNane/exercise2)
+
 ### 步骤
 
 * 全局安装 mocha
