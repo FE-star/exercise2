@@ -9,7 +9,7 @@
 # after_script
 
 language: node_js
-install: npm install
+install: nvm install node
 before_script: 
       npm install mocha@5.2.0;
 script: 
