@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
+    "mocha": "^5.2.0",
     "should": "^11.2.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
   }
 }
