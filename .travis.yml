@@ -1,12 +1,9 @@
+sudo: required
 language: node_js
 node_js:
-  - "iojs"
-  - "8"
-before_script:
-  - npm install -g mocha
-  - npm install should mocha --save-dev
-cache:
-  directories:
-    - "node_modules"
+  - '8'
 script:
-  - npm run test
+  - 'npm run test'
+before_script:
+  - 'sudo chown root /opt/google/chrome/chrome-sandbox'
+  - 'sudo chmod 4755 /opt/google/chrome/chrome-sandbox'
