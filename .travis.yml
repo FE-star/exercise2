@@ -1,2 +1,5 @@
 language: javascript
-script: true
+install:
+  - npm install mocha -g
+  - npm installl
+script: mocha
