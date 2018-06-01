@@ -1,4 +1,7 @@
-language: javascript
+language: node_js
+node_js:
+  - "node"
+  - "9.3.0"
 install:
   - npm install mocha -g
   - npm install
