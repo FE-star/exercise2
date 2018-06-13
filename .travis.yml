@@ -3,6 +3,9 @@ node_js:
   - "9.3"
 git:
   depth: 1
+install:
+  - npm install -g mocha
+  - npm install
 cache:
   directories:
     - "node_modules"
