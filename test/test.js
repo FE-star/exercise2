@@ -1,6 +1,7 @@
-var add = require('../lib/add')
-
+let add = require('../lib/add')
+let should = require("should");
 describe('大数相加add方法', function () {
+  
   it('字符串"42329"加上字符串"21532"等于"63861"', function () {
     add('42329', '21532')
       .should.equal('63861')
@@ -11,3 +12,4 @@ describe('大数相加add方法', function () {
       .should.equal('1079654173767686669')
   })
 })
+
