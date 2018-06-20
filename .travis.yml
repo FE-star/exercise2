@@ -5,6 +5,8 @@ node_js:
   - 8.11.2
 
 #运行的脚本命令
+before_script:
+  - npm install mocha
 script:
   - npm run test
 
