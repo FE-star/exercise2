@@ -1,2 +1,2 @@
 language: node_js
-npm test
+script: npm test
