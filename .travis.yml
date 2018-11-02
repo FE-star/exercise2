@@ -9,5 +9,3 @@ before_install:
   - "npm install --g mocha"
 install:
   - "npm install"
-script:
-  - "mocha"
