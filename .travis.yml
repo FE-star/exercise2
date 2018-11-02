@@ -4,6 +4,8 @@ branches:
 
 language: node_js
 node_js: "10"
+before_install:
+  - "npm install --g mocha"
 install:
   - "npm install"
 script:
