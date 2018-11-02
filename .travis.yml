@@ -10,12 +10,6 @@ branches:
   only:
   - master
 
-# 执行isntall前需要执行的命令
-before_install:
-# 配置git 的个人信息
- - git config --global user.name 'arissy'
- - git config --global user.email 984385267@qq.com
-
 # 执行install
 install:
  - npm install mocha -g
