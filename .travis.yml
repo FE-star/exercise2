@@ -17,7 +17,7 @@ before_script:
 
 # 无其他依赖项所以执行npm run build 构建就行了
 script:
-- npm run build
+- npm test
 
 after_script:
 - cd ./dist
@@ -35,5 +35,4 @@ branches:
   - master
 env:
   global:
-  # 我将其添加到了travis-ci的环境变量中
-  - GH_REF: github.com/Sofiya-xuanxuan?tab=repositories
+  - GH_REF: https://github.com/Sofiya-xuanxuan/exercise2.git
