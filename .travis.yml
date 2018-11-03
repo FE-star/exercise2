@@ -1,0 +1,7 @@
+# 使用的语言
+language: node_js
+
+# 使用的nodejs版本
+node_js:
+ - 4.4.4
+
