@@ -1,5 +1,7 @@
 # Readme
 
+[![Build Status](https://travis-ci.org/michaelliao/openweixin.svg?branch=master)](https://travis-ci.org/michaelliao/openweixin)
+
 ### 步骤
 
 * 全局安装 mocha
