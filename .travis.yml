@@ -3,7 +3,7 @@ node_js:
   - "8"
 cache: npm
 before_script: 
-  -npm install -g mocha
-  -npm install
+  - npm install -g mocha
+  - npm install
 script:
-  -npm test
+  - npm test
