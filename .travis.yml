@@ -2,3 +2,8 @@ language: node_js
 node_js:
   - "iojs"
   - "8"
+install:
+  - 'npm install mocha -g'
+  - 'npm install'
+script:
+  - 'npm test'
