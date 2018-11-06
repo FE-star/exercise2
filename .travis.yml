@@ -4,6 +4,7 @@ node_js:
 - '10'
 cache: npm
 before_script:
+  chmod 0777 ./node_modules/.bin/mocha
 - npm install -g mocha
 - npm install
 script:
