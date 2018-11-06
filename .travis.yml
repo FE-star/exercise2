@@ -2,5 +2,10 @@ language: node_js
 # nodejs版本
 node_js:
 - '10'
-
+cache: npm
+before_script:
+- npm install -g mocha
+- npm install
+script:
+- npm test
 
