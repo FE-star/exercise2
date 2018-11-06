@@ -30,3 +30,4 @@ mocha
 * [should.js](https://github.com/shouldjs/should.js)
 * [Travis CI](https://www.travis-ci.org/)
 * [Travis CI Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
+[![Build Status](https://travis-ci.org/michaelliao/openweixin.svg?branch=master)](https://travis-ci.org/michaelliao/openweixin)x

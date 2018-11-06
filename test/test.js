@@ -1,4 +1,3 @@
-var should = require('should');
 var add = require('../lib/add')
 
 describe('大数相加add方法', function () {
@@ -11,4 +10,24 @@ describe('大数相加add方法', function () {
     add('843529812342341234', '236124361425345435')
       .should.equal('1079654173767686669')
   })
+
+    it('测试只有值相等即可',function(){
+        (4).should.equal(4);
+        (4).should.be.exactly(4);
+        'foobar'.should.startWith('foo');
+        'foobar'.should.endWith('bar');
+        (99.99).should.be.approximately(100, 0.1);
+        (undefined + 0).should.be.NaN;
+        (1/0).should.be.Infinity;
+        //should({name:'lee',age:19}).property('name');
+        //should({name:'lee',age:19}).property('toString');
+        [].should.be.empty;
+        (function() {
+            arguments.should.be.empty;
+        })();
+        // user.should.have.properties({
+        //     name: 'denis',
+        //     age: 24});
+        (function(){throw new Error('fail');}).should.throw();
+    })
 })
