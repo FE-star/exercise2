@@ -1,3 +1,4 @@
+var should = require('should')
 var add = require('../lib/add')
 
 describe('大数相加add方法', function () {
