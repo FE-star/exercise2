@@ -1,3 +1,2 @@
 language: node_js
-sudo: required
-before_install: sudo npm install -g macha
+before_install: npm install -g macha
