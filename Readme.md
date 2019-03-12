@@ -1,5 +1,6 @@
 # Readme
 
+![](https://travis-ci.org/WiessWong/exercise2.svg?branch=master)
 ### 步骤
 
 * 全局安装 mocha
