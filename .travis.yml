@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 10.15.3
+
+branches:
+  - dev
+
+install:
+  - npm install mocha -g
+  - npm install
+
+script:
+  - mocha
