@@ -21,5 +21,8 @@
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
     "should": "^11.2.1"
+  },
+  "dependencies": {
+    "mocha": "^4.1.0"
   }
 }
