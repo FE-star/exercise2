@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
-    "should": "^11.2.1"
+    "should": "^13.2.3"
   }
 }
