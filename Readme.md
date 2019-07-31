@@ -6,6 +6,7 @@
 
 ```
 npm install mocha -g
+npm install  sholud -g
 ```
 
 * Fork 代码仓库并拉到本地
