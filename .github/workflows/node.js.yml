@@ -5,9 +5,9 @@ name: Auto Test CI
 
 on:
   push:
-    branches: [ "feature/workhome" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "feature/workhome" ]
+    branches: [ "master" ]
 
 jobs:
   build:
