@@ -1,0 +1,21 @@
+name: test-case
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  run-test-case:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [14, 16, 18]
+    name: Node ${{matrix.node}} sample
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{matrix.node}}
+      - run: yarn
+      - run: yarn test
