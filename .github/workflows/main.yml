@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+
+      # Runs a single command using the runners shell
+      - name: Run yarn
+        run: yarn
+
+      # Runs a set of commands using the runners shell
+      - name: Run tests
+        run: yarn test
