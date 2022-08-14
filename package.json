@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/FE-star/exercise2/issues"
   },
-  "homepage": "https://github.com/HappyCoder01/exercise2",
+  "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
     "jest": "^28.1.2"
   }
