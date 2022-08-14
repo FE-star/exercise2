@@ -17,6 +17,11 @@ describe('大数相加add方法', function () {
     expect(add('843529812342341234', '36124361425345435')).toBe('879654173767686669')
   })
 
+  test('"0"加上"123"等于"123"', function () {
+    expect(add('0', '123')).toBe('123')
+    expect(add('123', '0')).toBe('123')
+  })
+
   test('"a"加上"123" is NaN', function () {
     expect(isNaN(add('a', '123'))).toBe(true)
   })
