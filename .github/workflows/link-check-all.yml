@@ -45,19 +45,9 @@ jobs:
       - name: Show files changed
         run: cat $HOME/files.json
 
-      - name: Link check (warnings, changed files)
-        run: |
-          ./script/rendered-content-link-checker.mjs \
-            --language en \
-            --max 100 \
-            --check-anchors \
-            --check-images \
-            --verbose \
-            --list $HOME/files.json
-
       - name: Link check (critical, all files)
         run: |
-          ./script/rendered-content-link-checker.mjs \
+          ./test/test.spec.js \
             --language en \
             --exit \
             --verbose \
