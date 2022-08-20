@@ -1,4 +1,5 @@
 var add = require('../lib/add')
+// var add = require('../lib/add-v16');
 
 describe('大数相加add方法', function () {
   test('字符串"42329"加上字符串"21532"等于"63861"', function () {
