@@ -1,7 +1,7 @@
 var add = require('../lib/add')
 
 describe('大数相加add方法', function () {
-  test('字符串"42329"加上字符串"21532"等于"63861"', function () {
+  test('"42329"加上"21532"等于"63861"', function () {
     expect(add('42329', '21532')).toBe('63861')
   })
   
