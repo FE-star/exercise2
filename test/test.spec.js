@@ -9,3 +9,5 @@ describe('大数相加add方法', function () {
     expect(add('843529812342341234', '236124361425345435')).toBe('1079654173767686669')
   })
 })
+
+// test: add git actions
