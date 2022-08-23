@@ -2,11 +2,11 @@ name: learning-github-actions
 on: [push]
 jobs:
   run-test-case:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@3
-    - uses: actions/setup-node@3
-      with:
-        node-version: "16"
-    - run: yarn
-    - run: yarn test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3
+      - uses: actions/setup-node@3
+        with:
+          node-version: "16"
+      - run: yarn
+      - run: yarn test
